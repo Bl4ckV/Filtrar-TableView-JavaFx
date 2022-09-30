@@ -6,7 +6,7 @@ private ObservableList<Pedido> pedidos1 = FXCollections.observableArrayList();
 public void eliminarPedido() {
     tablaPedidos.getItems().remove(tablaPedidos.getSelectionModel().getSelectedItem());
     for (int i = 0; i < pedidos.size(); i++) {
-        if (pedidos.get(i).getTipo().equalsIgnoreCase(eFiltrar.getText()) || pedidos.get(i).getTipo().equalsIgnoreCase(eFiltrar.getText()))
+        if (pedidos.get(i).getTipo().equalsIgnoreCase(eFiltrar.getText()))
             pedidos.remove(i);
     }
 }
