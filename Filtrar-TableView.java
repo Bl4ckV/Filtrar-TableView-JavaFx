@@ -1,5 +1,5 @@
 @FXML
-private ObservableList<Pedido> pedidos;
+private ObservableList<Pedido> pedidos = FXCollections.observableArrayList();
 private ObservableList<Pedido> pedidos1 = FXCollections.observableArrayList();
 
 @FXML
